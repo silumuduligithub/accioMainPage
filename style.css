@@ -1,0 +1,266 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  background-color: #ffffff;
+}
+.logo {
+  flex: 2;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 150px;
+}
+.nav-items {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.nav-items > a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-weight: 600;
+}
+.vertical-line {
+  height: 70px;
+  width: 2px;
+  background-color: #dfdfdf;
+  margin-inline: 30px;
+}
+.nav-items > button {
+  border-radius: 10%;
+  width: 80px;
+  height: 35px;
+  border: solid #2f80ed 2px;
+  background-color: transparent;
+  color: #2f80ed;
+}
+.addvertisement {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #2f80ed;
+  padding-top: 8px;
+  color: #f2f7fe;
+  font: italic;
+}
+.hero-section {
+  display: flex;
+}
+.left-add {
+  flex: 3;
+  width: 100%;
+}
+.right-add {
+  flex: 2;
+}
+.row1 > .col1 {
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-inline: 150px;
+  line-height: 65px;
+  color: #2b2f34;
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.row1 > p > span {
+  color: #2f80ed;
+}
+.curriculum {
+  font-size: 18px;
+  padding-inline: 150px;
+  color: #979797;
+}
+.money-add {
+  display: flex;
+  padding-inline: 130px;
+  margin-top: 70px;
+}
+.money-add > div {
+  margin-inline: 30px;
+}
+.money-add > div > p {
+  font-size: 20px;
+}
+.money-add > div > p > span {
+  font-size: 10px;
+  margin-left: 40px;
+  line-height: 2px;
+  padding-bottom: 30px !important;
+}
+.my-resspossibility {
+  border-radius: 10%px;
+  height: 20px;
+  width: fit-content;
+  padding: 10px, 20px, 10px, 20px;
+  box-shadow: 0px 2px 40px 10px #0000001f;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.right-add {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+}
+.my-card {
+  display: flex;
+  width: 400px;
+  text-align: center;
+  padding: 10px, 20px, 10px, 20px;
+  box-shadow: 0px 2px 40px 10px #0000001f;
+  margin-inline: 100px;
+}
+.my-card > div > .class-fee {
+  font-size: 25px !important;
+  font-weight: 500;
+  font-style: italic;
+}
+.my-card > div > #lectures {
+  font-size: 13px !important;
+  color: #818d9d;
+  font-style: italic;
+}
+.container > div > input {
+  border: none;
+}
+.container {
+  padding-top: 30px;
+}
+.my-card > .btn {
+  padding-top: 25px;
+  width: 100%;
+}
+.container > div {
+  background-color: #fafafa;
+}
+.my-card > .btn > button {
+  background-color: #8141ed;
+  color: white;
+  font: italic;
+  border: none;
+  border-radius: 10%;
+  width: 90%;
+}
+.my-card > p {
+  color: #818d9d;
+}
+.my-card > p > a {
+  text-decoration: none;
+}
+.elegibility {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.elegibility > div {
+  justify-content: space-between;
+  align-items: center;
+}
+.companies {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.hiering {
+  margin-inline: 40%;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  width: 100%;
+}
+
+td {
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 80px;
+}
+.bt {
+  margin-inline: 40%;
+  width: 350px;
+}
+.companies > div > button {
+  background-color: #2f80ed;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  color: white;
+}
+footer {
+  display: flex;
+  padding-inline: 100px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.card1 {
+  flex: 1;
+  padding-inline: 80px;
+  padding: 10px, 20px, 10px, 20px;
+  box-shadow: 4px 2px 40px 10px #0000001f;
+  background-color: transparent;
+}
+.card2 {
+  flex: 1;
+  flex: 1;
+  padding-inline: 80px;
+  padding: 10px, 20px, 10px, 20px;
+  box-shadow: 4px 2px 40px 10px #0000001f;
+  background-color: transparent;
+}
+.card3 {
+  flex: 1;
+  padding-inline: 80px;
+  padding: 10px, 20px, 10px, 20px;
+  box-shadow: 4px 2px 40px 10px #0000001f;
+  background-color: transparent;
+}
+.card-m {
+  width: 100%;
+  padding-right: 160px;
+  margin-bottom: 30px;
+}
+.name {
+  font-family: ABeeZee;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+}
+.role {
+  font-size: 16px;
+  font-weight: 602;
+  line-height: 24px;
+  text-align: center;
+}
+.character {
+  width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #676767;
+
+}
+@media screen and (max-width: 876px){
+  .hero-section, nav{
+    flex-direction: column;
+  }
+  .table{
+    flex-direction: column;
+    padding-inline: 5px;
+  }
+}
